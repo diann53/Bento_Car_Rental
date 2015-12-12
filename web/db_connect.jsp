@@ -23,7 +23,7 @@
         <%
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                String url = "jdbc:mysql://localhost:3306/bento_car_rental";
+                String url = "jdbc:mysql://localhost:8080/bento_car_rental";
                 
                 Connection conn = DriverManager.getConnection(url, "root", "");
                 out.println("DB connection ok");
