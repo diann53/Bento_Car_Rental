@@ -20,29 +20,29 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="admin_home.php">Bento Car Rental</a>
+            <a class="navbar-brand" href="admin_home.jsp">Bento Car Rental</a>
 
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="admin_home.php">Home</a>
+                    <a href="admin_home.jsp">Home</a>
                 </li>
                 <li>
-                    <a href="admin_manageAccount.php">Manage Account</a>
+                    <a href="admin_manageAccount.jsp">Manage Account</a>
                 </li>
                 <li>
-                    <a href="admin_manageBooking.php">Manage Booking</a>
+                    <a href="admin_manageBooking.jsp">Manage Booking</a>
                 </li>
                 <li>
-                    <a href="admin_manageCar.php">Manage Cars</a>
+                    <a href="admin_manageCar.jsp">Manage Cars</a>
                 </li>
                 <li>
-                    <a href="admin_viewfeedback.php">View Feedback</a>
+                    <a href="admin_viewfeedback.jsp">View Feedback</a>
                 </li>
                 
-                <li><strong style="margin-left:15px;"><?php echo $_SESSION["username"] ?>(<a href="logout.php">Logout</a>)</strong></li>
+                <li><strong style="margin-left:15px;"><?php echo $_SESSION["username"] ?>(<a href="logout.jsp">Logout</a>)</strong></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->

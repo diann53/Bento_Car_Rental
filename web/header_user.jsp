@@ -20,33 +20,33 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="admin_home.php">Bento Car Rental</a>
+            <a class="navbar-brand" href="admin_home.jsp">Bento Car Rental</a>
 
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="user_home.php">Home</a>
+                    <a href="user_home.jsp">Home</a>
                 </li>
                 <li>
-                    <a href="ourvehicle.php">Our Vehicles</a>
+                    <a href="ourvehicle.jsp">Our Vehicles</a>
                 </li>
                 <li>
-                    <a href="user_reservation.php">Reservation</a>
+                    <a href="user_reservation.jsp">Reservation</a>
                 </li>
                 <li>
-                    <a href="feedbacks.php">Feedback</a>
+                    <a href="feedbacks.jsp">Feedback</a>
                 </li>
                 <li>
-                    <a href="user_myaccount.php">My Account</a>
+                    <a href="user_myaccount.jsp">My Account</a>
                 </li>
                 <li>
-                    <a href="user_myLicense.php">My License</a>
+                    <a href="user_myLicense.jsp">My License</a>
                 </li>
                 
                 
-                <li><strong style="margin-left:15px;"><?php echo $_SESSION["username"] ?>(<a href="logout.php">Logout</a>)</strong></li>
+                <li><strong style="margin-left:15px;"><?php echo $_SESSION["username"] ?>(<a href="logout.jsp">Logout</a>)</strong></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
